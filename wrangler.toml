@@ -1,0 +1,10 @@
+name = "ezlinkapi"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ADMIN_PASSWORD = "your-password-here"  # 请在部署时更改此密码
+
+[[ kv_namespaces ]]
+binding = "CONFIG_STORE"
+id = "your-kv-namespace-id"  # 需要在Cloudflare控制台创建KV命名空间并替换此ID
